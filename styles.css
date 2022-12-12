@@ -1,0 +1,108 @@
+
+@media screen and (max-width:1000px) {
+    .gallerycolumn{
+        flex: 50%;
+        max-width: 50%;
+    }  
+
+/*To hide link underline*/
+}
+a:link{
+	text-decoration: none;
+}
+
+.background{
+	background: grey;
+}
+
+
+.bannertext{
+	position: relative;
+	text-align: center;
+	color:black;
+}
+/*for banner text*/
+.bannertextcentered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	margin: auto;
+}
+/*centers the banner to the middel of the page*/
+.bannercenter {
+	display: block;
+	margin: auto;
+	width:100%;
+}
+
+/*table design*/
+	
+.table {
+	border-style: ridge;
+	border-width: 10px;
+	border-color: lightskyblue;
+	background-color: mediumpurple;
+	width: 100%;
+	}
+
+.row:after {
+	content: "";
+	display:table;
+	clear: both;
+	
+	}
+/*navigation buttons at top of page*/
+.button {
+		background: url("images/button_purple.png");
+		text-align: center;
+		width:150px;
+		margin: auto;
+		display: block;
+		color: black;
+		line-height: 60px;
+		background-repeat:no-repeat;
+		}		
+
+	div.button:hover {
+		background: url("images/button_blue.png");
+		
+	}
+	
+	div.button:active {
+		background:url("images/button_purple.png");
+		 
+	}
+/*centers the form*/
+.contactform{
+	text-align: center;
+}
+/*page titles*/
+.headers {
+	font:bolder;
+	text-align: center;
+	font-size: 25px;
+	text-decoration-line: underline;
+}
+/*for the body text*/
+.textDecoration{
+	border-width: 5px; 
+	border:ridge;
+	background-color:antiquewhite;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-align: left;
+	
+}
+/*gallery images*/
+.gallery {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+}
+/*gallery images*/
+.gallerycolumn {
+	flex: 25%;
+    max-width: 35%;
+    padding: 0 8px;
+}
